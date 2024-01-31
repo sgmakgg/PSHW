@@ -1,6 +1,17 @@
 import sortBy from "sort-by";
 
-let users: any[];
+interface IEmail {
+    primary: string
+}
+
+interface IUser {
+    id: number,
+    name: string,
+    age: string,
+    email: IEmail
+}
+
+let users: IUser[];
 
 users = [{
     id: 7,

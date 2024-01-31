@@ -4,6 +4,8 @@
   "description": "",
   "main": "sortapp.js",
   "scripts": {
+    "compile": "npx tsc",
+    "start": "node ./build/sortapp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "msv",

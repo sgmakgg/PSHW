@@ -11,9 +11,7 @@ interface IUser {
     email: IEmail
 }
 
-let users: IUser[];
-
-users = [{
+const users: IUser[] = [{
     id: 7,
     name: 'Foo',
     age: '34',
